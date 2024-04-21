@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: bisque;
+}
+
+.container{
+    background-color:white;
+    padding: 10px;
+    border-radius: 5px;
+    height: 70vh;
+}
+
+form{
+     
+    margin: 10px 5px 10px 5px;
+
+}
+
+form input,select,button{
+    width:100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+form input{
+    border:1px solid lightgray;
+    font-size: 1.5rem;
+    height: 3rem;
+     
+}
+
+form p{
+    margin-top: 1rem;
+}
+.choose,.from,.to{
+   
+    display: flex;
+    align-items: center;
+    }
+
+form div p{
+    font-size: 20px;
+}
+
+form div img{
+    height: 3rem;
+    width: 4rem;
+    border-radius: 10px;
+}
+
+form div select{
+    border:1px solid lightgray;
+    font-size: 1rem;
+}
+
+form div button{
+    margin-top: 1rem;
+    background-color: rgb(130, 130, 247);
+    cursor: pointer;
+}
+
+form i{
+    
+    margin-top: 1rem; 
+}
+
+form .exchange_logo{
+    display: flex;
+    justify-content: center;
+}
+
+form .out-msg{
+    margin: 1rem 0 1rem 0;
+    font-size: 1.5rem;
+}
+
+.from , .to{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    display: block;
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
